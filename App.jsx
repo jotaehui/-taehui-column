@@ -11,9 +11,13 @@ import {
 
 // 🔥 Firebase 설정 (나중에 본인 키로 교체)
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_PROJECT.firebaseapp.com",
-  projectId: "YOUR_PROJECT_ID",
+  apiKey: "AIzaSyB7uqX7NZF9fW9cgimcM6PbLyATzWXlMmg",
+  authDomain: "taehui-column.firebaseapp.com",
+  projectId: "taehui-column",
+  storageBucket: "taehui-column.firebasestorage.app",
+  messagingSenderId: "263985391955",
+  appId: "1:263985391955:web:1e356e15df0773b71299a6",
+  measurementId: "G-LVBXPRZBJM"
 };
 
 const app = initializeApp(firebaseConfig);
